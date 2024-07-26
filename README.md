@@ -102,16 +102,6 @@ Check out the live demo [here](#) (replace with your actual demo link if availab
 
 - **Database Schema:** Make sure that the database schema matches what is expected by your application.
 
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Create a new Pull Request.
-
-Please ensure your code adheres to the existing style and includes tests where applicable.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
