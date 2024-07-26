@@ -11,16 +11,10 @@ A simple To-Do application that allows users to register, log in, and manage the
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
 - [License](#license)
-
-## Demo
-
-Check out the live demo [here](#) (replace with your actual demo link if available).
 
 ## Installation
 
