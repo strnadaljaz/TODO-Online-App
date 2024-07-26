@@ -100,18 +100,6 @@ Check out the live demo [here](#) (replace with your actual demo link if availab
 
 ## Configuration
 
-- **Encryption Key:** Ensure you set the encryption key in your `functions.php` file:
-
-    ```php
-    function encryption($data) {
-        $cipher = "aes-256-cbc";
-        $key = "your-encryption-key"; // Update this with your key
-        $iv_length = openssl_cipher_iv_length($cipher);
-        $iv = openssl_random_pseudo_bytes($iv_length);
-        return base64_encode($iv . openssl_encrypt($data, $cipher, $key, 0, $iv));
-    }
-    ```
-
 - **Database Schema:** Make sure that the database schema matches what is expected by your application.
 
 ## Contributing
