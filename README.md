@@ -36,8 +36,8 @@ Check out the live demo [here](#) (replace with your actual demo link if availab
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/strnadaljaz/todo-app.git
-    cd todo-app
+    git clone https://github.com/strnadaljaz/TODO-Online-App.git
+    cd TODO-Online-App
     ```
 
 2. **Set up the database:**
