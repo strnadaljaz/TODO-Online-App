@@ -1,0 +1,90 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6f8; /* Matching the index page background color */
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the body fill the viewport height */
+    margin: 0;
+    padding: 0;
+    /* Background image */
+    background-image: url('../pictures/fog-8519076_1920.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#container {
+    text-align: center;
+}
+
+#login_div {
+    background: rgba(255, 255, 255, 0.9); /* Slightly more opaque white */
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #e0e0e0; /* Light grey border for a softer look */
+    border-radius: 8px; /* Slightly less rounded for consistency with the index page */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent shadow with index page */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark grey color for the heading */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Less rounded to match the index page buttons */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Slightly larger padding for better touch interaction */
+    background-color: #007bff; /* Blue color for the login button */
+    color: #fff;
+    border: none;
+    border-radius: 4px; /* Consistent with input fields */
+    cursor: pointer;
+    font-size: 16px; /* Consistent font size with index page buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue for link hover */
+}
+
+/* Style the "Don't have an account?" label separately */
+#login_div label[for="sign_up_link"] {
+    display: block;
+    margin-top: 20px;
+}
