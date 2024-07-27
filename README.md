@@ -1,6 +1,6 @@
 # To-Do App
 
-A simple To-Do application that allows users to register, log in, and manage their tasks. Built with PHP, MySQL, and a bit of encryption for secure handling of user data.
+A simple To-Do application that allows users to register, log in, and manage their tasks. Built with PHP and MySQL
 
 ## Features
 
