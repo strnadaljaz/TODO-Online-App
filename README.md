@@ -99,3 +99,9 @@ A simple To-Do application that allows users to register, log in, and manage the
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Attribution
+
+When using this software, please include the following attribution:
+
+"This software was developed by Aljaž Strnad."
